@@ -1,6 +1,7 @@
 {
   "scripts": {
     "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
     "lint": "eslint --ext .ts,.tsx src/",
     "lint:fix": "yarn lint -- --fix",
     "prettier": "prettier src --check",
